@@ -1,0 +1,478 @@
+
+.ALL{
+    width: 1200px;
+    margin: 0px auto;
+    box-shadow: 0 0 3px n ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ALL> header{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(35, 41, 163);
+    background-image:  url('https://nhanhoa.com/uploads/news/1664760837_z3768645078392_7bc872b052ffb3c912a00e150b762cae.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+.ALL>nav{
+    line-height: 40px;
+    background-color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.menu>ul>li{
+    position: relative;
+    display: inline-block;
+}
+.menu>ul>li>a:hover{
+    background-color: white;
+    color: gray;
+}
+.menu>ul{
+    margin-bottom: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(0, 161, 43);
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: #41e159;
+    box-shadow: 0 0 1px black;
+    
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu>ul ul a:hover{
+    background-color: silver;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.ALL> marquee{
+    color: #b46700;
+    border-top: 3px solid #41e159;
+    
+}
+.ALL> article{
+    width: 69%;
+    min-height: 450px;
+    padding-left: 0px;
+    float: left;
+}
+.ALL>article>.a1 .a2 .a3{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border-bottom: 1px solid red;
+}
+.ALL>article>.a1 img{
+    width: 820px;
+    height: 500px;
+}
+.ALL>article>.a2 img{
+    width: 820px;
+    height: 650px;
+}
+.ALL>article>.a3 img{
+    width: 820px;
+    height: 650px;
+}
+.ALL> aside{
+    width: 30%;
+    float: right;
+}
+.ALL> aside>.danhsach{
+    width: 100%;
+    min-height: 200px;
+    padding: 0px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 1px gray;
+    
+}
+.ALL> aside>.danhsach>.tieude{
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    background-color: red;
+    
+}
+.ALL>aside>.danhsach>.tieude>a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+.ALL>aside>.danhsach>ul{
+    padding-left: 0px;
+}
+.ALL>aside>.danhsach>ul>li{
+    list-style: none;
+    padding: 10px;
+}
+.ALL>aside>.r1 img{
+    width: 365px;
+    height: 250px;
+}
+.ALL>aside>.danhsach>ul>li> a{
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.ALL>aside>.danhsach>ul>li{
+    border-bottom: 1px solid #41e159;
+}
+.ALL>aside>.danhsach>.fomgr>.fomctrlse{
+    font-size: large;
+    width: 360px;
+    height: 45px;
+    
+}
+.ALL>aside>.danhsach>.fomgr img{
+    width: 355px;
+}
+
+.ALL>aside>.danhsach>.video>a{
+    text-decoration: none;
+    color: royalblue;
+    padding-top: 5px;
+}
+
+.ALL> footer{
+    clear: both;
+    width: 100%;
+    height: 200px;
+    border-top: 3px solid #41e159;
+    position: relative;
+}
+.ALL> footer>.diachi> p{
+    font-size: 14px;
+}
+.ALL>footer>.diachi{
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    text-align: center;
+}
+.ALL>footer>.diachi>.ft1{
+    font-weight: bold;
+    font-size: x-large
+}
+.ALL>footer>.diachi>.ft2{
+    font-size: large;
+}
+
+.ALL> article>.gioithieu>.n{
+    padding-bottom: 5px;
+    color: rgb(130, 137, 158);
+    border-bottom: 3px solid rgb(151, 160, 186);
+}
+.ALL> article>.gioithieu>.tieude{
+    color: navy;
+}
+.ALL> article>.gioithieu>.n1{
+    font-weight: bold;
+    color: navy;
+}
+.ALL> article>.gioithieu>img{
+    width: 100%;
+}
+.ALL> article>.gioithieu>.n2{
+    font-weight: bold;
+    text-align: center;
+}
+.ALL> article>.gioithieu>.n3{
+    color: red;
+    text-align: center;
+}
+.ALL> article>.gioithieu>.n4{
+    text-align: center;
+}
+.ALL> aside>.danhsach>.gt1>.o1{
+    color: rgb(65, 65, 235);
+    background-color: rgb(232, 226, 248);
+}
+.ALL> aside>.danhsach>.gt1>.o2{
+    background-color: rgb(147, 147, 250);
+    
+}
+.ALL> aside>.danhsach>.gt1>li>a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.ALL> aside>.danhsach>ul>li:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.ALL>article>.lienhe1{
+    padding-left: 90px;
+}
+.ALL>article>.lienhe1>h4{
+    padding: 10px;
+    color: royalblue;
+    border-bottom: 3px solid royalblue;
+}
+.ALL>article>.lienhe1>.lienhe2{
+    border-bottom: 3px solid orange;
+}
+
+.ALL>article>.a{
+    margin: 10px;
+    padding: 10px;
+}
+.ALL>article>.a>.tintuc{
+    color: rgb(100, 107, 128);
+    font-size: 18px;
+    
+}
+
+.ALL>article>.tieude>.album{
+    padding: 10px;
+    color: rgb(133, 133, 133);
+    
+}
+.ALL>article>.ha1{
+    border-bottom: 2px solid rgb(130, 130, 135);
+}
+.ALL>article>.hinhanh{
+    margin: 5px;
+    width: 260px;
+    height: 170px;
+    float: left;
+}
+.ALL>article>.a1 img{
+    width: 100%;
+    height: 700px;
+}
+.ALL>article>.hinhanh>img{
+    width: 100%;
+    height: 100%;
+}
+.ALL>article>.hinhanh:hover{
+    box-shadow: 0 0 5px #41e159;
+}
+.ALL>article>.gopy{
+    padding-left: 80px;
+    margin: 10px;   
+}
+.ALL>article>.gopy>h3{
+    padding: 5px;
+    color: royalblue;
+    border-bottom: 3px solid royalblue;
+}
+.ALL>article >form{
+    padding-left: 90px;
+    margin: 10px 2px;
+    
+}
+.ALL>article>form>.lienhe3>.khung{
+    width: 440px;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    
+}
+.ALL>article >form>.lienhe3>.khung:focus{
+    box-shadow: 0 0 3px royalblue;
+}
+.ALL>article >form>button{
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    background-color: royalblue;
+}
+.ALL>article >form>button:hover{
+    background-color: orange;
+}
+.ALL>article>.hoi{
+    padding-left: 40px;
+    margin: 10px;
+}
+.ALL>article>.traloi{
+    padding-left: 70px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(49, 92, 224);
+}
+#uudai{
+    color: red;
+}
+.modal-input{
+    font-size: 20px;
+}
+.go8{
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    line-height: 4;
+    cursor: pointer;
+    background-color: #ebcabecf ;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/318074538_1220121495550685_2878245770158129205_n.png?_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=tCVGIjq8gnoAX8-dpIa&_nc_oc=AQnfT49UvtTzznJrSh4rroE1DEHxMNRv_7ZACeLh42UToavWuj6YXNQB5ff5hqOfx7Bqbb8ZZJrVh5VyNoQMs9xb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSMjnlotH6J2HlskHYD-5dCjlxC89syBtZnrXuBjDUPPQ&oe=63B81AFB);
+    background-repeat: no-repeat;
+    background-size: 290px;
+    background: 100% auto;
+    position: relative;
+    
+}
+#go8res{
+    color: red;
+}
+#search{
+    font-size: 20px;
+}
+.ti-search{
+    height: 20px;
+    width: 20px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal.open{
+    display: flex;
+}
+.modal-container{
+    background: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px; 
+    position: relative;
+    animation: modalFadeIn ease 0.5s;
+}
+.modal-header{
+    background: #009688;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal-close:hover{
+    opacity: 1;
+}
+.modal-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.modal-body{
+    padding: 16px;
+}
+.modal-label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.modal1-input{
+    border: 1px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+#buy-dangki{
+    background: #009688;
+    border: none;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 18px;
+    cursor: pointer;
+}
+#buy-dangki:hover{
+    opacity: 0.9;
+}
+.modal-footer{
+    padding: 16px;
+    text-align: right;
+}
+.modal-footer a{
+    color: #2196F3;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.modal-container1{
+    background: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px; 
+    position: relative;
+    animation: modalFadeIn ease 0.5s;
+}
+.modal-close1:hover{
+    opacity: 1;
+}
+.modal-close1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.modal1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal1.open{
+    display: flex;
+}
